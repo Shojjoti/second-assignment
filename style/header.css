@@ -150,6 +150,9 @@
 
 .img-grid{
     display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: none;
+
 }
 
 /* chalange part */
@@ -186,4 +189,19 @@
     height: 272px;
     width: 326.67px;
     border-radius: 18px;
+}
+/* footer */
+.footer-bg{
+    height: 489px;
+    width: 1440px;
+    background-color:rgba(229, 223, 223, 0.066) ;
+    margin: auto; 
+}
+.footer-LR{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.last{
+    text-align: center;
 }
