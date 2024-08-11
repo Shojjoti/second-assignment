@@ -8,3 +8,182 @@
   font-weight: 400 ;
   font-style: normal;
 }
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.text-color-white{
+    color: #FFFFFF ;
+}
+.text-color-white-lighter{
+    color: rgba(225, 225, 225, 0.912);
+}
+
+.text-color-orange{
+    color: #E6533C ;
+}
+.button-bg{
+    background-color:#E6533C ;
+    width: 224px;
+    height: 54px ;
+    border-radius: 42px;
+
+}
+.button-bg-black{
+    width: 224px;
+    height: 54px ;
+    border-radius: 42px;
+    background-color: #111111 ;
+     
+}
+.bg-color{
+    background-color: #111111;
+}
+
+
+/* header styles */
+.header-bg-color{
+    background-color: rgba(229, 223, 223, 0.049) ;
+    
+
+}
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between ;
+    width: 1060px ;
+    height: 46px;
+        
+}
+.nav-items{
+    list-style: none;
+    margin-right: 40px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    
+
+}
+.home-bg{
+    
+    border-radius: 16px;
+    background-color:#E6533C ;
+    width: 56px;
+    height: 28px;
+}
+
+.navbar  , .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+/* banner */
+.banner-size{
+    height: 440px;
+    width: 520px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0 200px;
+    max-width: 1440px;
+}
+/* .img{
+    height: 580px;
+    width: 349px ;
+    display: block;
+  
+}  */
+.btn{
+    display: flex;
+}
+.inside-btn{
+    background-color: rgba(229, 223, 223, 0.303) ;
+    border-radius: 12px ;
+    width: 193px;
+    height: 98px;
+}
+
+/* main part */
+.main-head-text{
+    text-align: center;
+}
+.main-center-photo{
+    display: flex;
+    text-align: center;
+}
+.M2{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+       
+}
+.main-part1{
+    margin: auto;
+}
+.main-part2{
+    width: 1440px;
+    height: 371px;
+    background-color:rgba(229, 223, 223, 0.066) ;  
+    margin: auto;
+}
+
+.imgs{
+   
+    width: 180px;
+    height: 180px;
+    border-radius: 100px
+
+}
+.img-run{
+   width: 366px;
+   height: 312px;
+   border-radius: 18px
+}
+.part2{
+    width: 443px;
+    height: 290px;
+}
+
+.img-grid{
+    display: grid;
+}
+
+/* chalange part */
+.Bm{
+    text-align: center;
+}
+.challenge-part{
+    height: 687px;
+    width: 1440px;
+    background-color:rgba(229, 223, 223, 0.066) ; 
+    
+}
+.LR{
+    display: flex;
+    justify-content: space-between;
+}
+.meet{
+    text-align: center;
+}
+.meet-people{
+    height: 604px;
+    width: 1060px;
+    background-color:rgba(229, 223, 223, 0.066) ;
+    margin: auto; 
+
+}
+.people{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 20px ;
+    
+}
+.people-img{
+    height: 272px;
+    width: 326.67px;
+    border-radius: 18px;
+}
