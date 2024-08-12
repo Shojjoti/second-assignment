@@ -147,13 +147,21 @@
     width: 443px;
     height: 290px;
 }
-
+/* part 3 */
 .img-grid{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
     gap: none;
+    height: 403px;
+    width: 1060px;
+    margin: auto;
 
 }
+img{
+    height: 100%;
+    width: 100%;
+}
+
 
 /* chalange part */
 
@@ -167,8 +175,7 @@ table, th, td {
 table{
     height: 216px;
     width: 310px;
-}  
-
+} 
 
 .Bm{
     text-align: center;
@@ -219,6 +226,16 @@ table{
     justify-content: space-between;
     margin: auto;
 }
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 120px;
+    margin-right: 120px ;
+    border-style: inset;
+    border-width: 1px;
+    color:rgba(225, 225, 225, 0.423);
+  }
 .last{
     text-align: center;
 }
