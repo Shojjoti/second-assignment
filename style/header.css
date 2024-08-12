@@ -156,6 +156,20 @@
 }
 
 /* chalange part */
+
+table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.415);
+    border-collapse: collapse;
+    text-align: center;
+        
+  }
+
+table{
+    height: 216px;
+    width: 310px;
+}  
+
+
 .Bm{
     text-align: center;
 }
@@ -168,7 +182,10 @@
 .LR{
     display: flex;
     justify-content: space-between;
-}
+    margin: 100px ;
+}    
+
+/* meet our team */
 .meet{
     text-align: center;
 }
