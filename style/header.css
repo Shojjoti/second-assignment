@@ -239,3 +239,8 @@ hr {
 .last{
     text-align: center;
 }
+
+/* responsive media query */
+@media screen and (max-width:567px) {
+    
+}
