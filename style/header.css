@@ -241,6 +241,165 @@ hr {
 }
 
 /* responsive media query */
-@media screen and (max-width:567px) {
-    
+@media screen and (max-width: 576px) {
+    .navbar {
+        width: 100%;
+        padding: 0 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-items {
+        margin: 10px 0;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    .banner-size {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .inside-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .main-center-photo,
+    .people {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .imgs,
+    .people-img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .M2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img-run {
+        width: 100%;
+        height: auto;
+    }
+
+    .part2 {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .img-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .challenge-part, .meet-people, .footer-bg {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .LR, .footer-LR {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-LR > div {
+        margin-bottom: 20px;
+    }
+
+    table, th, td {
+        width: 100%;
+        font-size: 12px;
+    }
 }
+
+
+/* ........ */
+/* Hide the checkbox */
+.menu-toggle {
+    display: none;
+}
+
+/* Three dots menu icon */
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+/* Hide the navigation links by default on small screens */
+.nav-link {
+    display: flex;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        display: flex;
+    }
+
+    /* Show the menu icon on small screens */
+    .menu-icon {
+        display: block;
+    }
+
+    /* Hide the navigation links initially */
+    .nav-link {
+        display: none;
+        flex-direction: column;
+        align-items: flex-end;
+        position: absolute;
+        top: 46px; /* Adjust based on your navbar height */
+        right: 10px;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    /* Show the navigation links when the checkbox is checked */
+    #menu-toggle:checked + .menu-icon + .nav-link {
+        display: flex;
+    }
+
+    .nav-items {
+        margin: 10px 0;
+    }
+
+    .navbar h3 {
+        margin-right: auto;
+    }
+}
+
